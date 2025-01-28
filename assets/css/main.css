@@ -3335,24 +3335,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #202020;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #202020;
 		}
 
 		#main blockquote {
@@ -3379,7 +3379,7 @@ input, select, textarea {
 		#main .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
+			color: #202020 !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3411,7 +3411,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #41b6ff;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3421,7 +3421,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: #55bbfa;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3429,7 +3429,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+					background-color: #41b6ff;
 				}
 
 				#main input[type="submit"].primary.icon:before,
@@ -3692,7 +3692,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
-		margin: 0 0 10em -2em;
+		margin: 0 0 5em -2em;
 	}
 
 		#footer > * {
@@ -3783,3 +3783,10 @@ input, select, textarea {
 			}
 
 		}
+    
+    #chicken{
+        width:5%;
+        height:5%;
+        display: block;
+        margin-left: auto;
+    }
