@@ -3094,15 +3094,16 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition: opacity 1.5s ease;
+				-webkit-transition: opacity 1.5s ease;
+				-ms-transition: opacity 1.5s ease;
+				transition: opacity 1.5s ease;
+				-moz-transition-delay: 0s;
+				-webkit-transition-delay: 0s;
+				-ms-transition-delay: 0s;
+				transition-delay: 0s;
 				opacity: 1;
+                padding-top: 1.5em;
 			}
 
 			#header.alt .logo {
