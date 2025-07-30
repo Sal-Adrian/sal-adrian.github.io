@@ -3805,4 +3805,6 @@ input, select, textarea {
 .center {
     flex-grow: 1;
     align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
