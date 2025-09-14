@@ -78,6 +78,7 @@ select {
 }
 
 header {
+    grid-area: header;
     border: 10px solid var(--color-border);
     min-height: 100vh;
     position: relative;
@@ -163,6 +164,47 @@ footer a:focus svg {
     fill: var(--color-border);
 }
 
-header {
-    grid-area: header;
+nav {
+    position: sticky;
+    top: 0;
+    height: 0;
+    z-index: 10;    
+    
+}
+nav a {
+	background: var(--container-bg);
+	color: var(--container-color);
+	padding: 4px 8px;
+	font-size: 1.2em;
+	white-space: pre;
+	border-top-left-radius: 0.5em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    width: 0;
+}
+nav ul li {
+    padding: 0 18px;
+}
+nav ul li:first-child {
+    padding-top: 1em;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    border-left: solid 4px var(--color-background);
+    border-bottom: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    text-align: center;
+    white-space: nowrap;
+    color: var(--color-dark);
+    border-left: solid 4px #99b7bb;
+    border-bottom: 0;
 }
