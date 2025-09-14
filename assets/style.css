@@ -1,4 +1,10 @@
 
+:root {
+    --color-dark: #252f38;
+    --color-light: #e1e5ea;
+    --color-background: #edebe3;
+    --color-border: #f5a583;
+}
 
 /*
  * [Modified] Modern CSS Reset
