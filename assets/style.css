@@ -372,3 +372,6 @@ article section a.link-button:focus {
     color: var(--color-border);
     background-color: var(--color-dark);
 }
+blockquote a.link-button {
+    float: right;
+}
