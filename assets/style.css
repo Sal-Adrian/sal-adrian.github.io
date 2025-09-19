@@ -375,3 +375,22 @@ article section a.link-button:focus {
 blockquote a.link-button {
     float: right;
 }
+
+footer.page-footer {
+    grid-area: footer;
+    background-color: var(--color-dark);
+    color: var(--color-background);
+}
+footer.page-footer a {
+    color: var(--color-background);
+}
+footer.page-footer a:hover,
+footer.page-footer a:focus {
+    color: var(--color-dark);
+}
+footer.page-footer .container {
+    margin: 0 auto;
+    padding: 1.5rem 0 0 180px;
+    padding-bottom: 0;
+    font-size: 1rem;
+}
