@@ -419,3 +419,23 @@ footer.page-footer .container {
     margin: auto;
     margin-top: 20px;
 }
+
+.fade-in {
+	color: var(--color-dark);
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-duration: 1.5s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		color: var(--color-border);
+	}
+	100% {
+		color: var(--color-dark);
+	}
+}
+
+#chicken{
+    margin-left: auto;
+    width: 7%;
+}
