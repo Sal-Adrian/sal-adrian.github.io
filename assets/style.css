@@ -394,3 +394,28 @@ footer.page-footer .container {
     padding-bottom: 0;
     font-size: 1rem;
 }
+
+.special {
+    display: flex;
+}
+
+.body-image {
+    float: right;
+    max-width: 350px;
+    padding-left: 30px;
+}
+
+.project-image {
+    display: flex;
+    align-items: center;
+}
+
+.sm-hide {
+    display: none;
+}
+
+.sm-project-image {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
