@@ -258,3 +258,117 @@ article {
     position: relative;
     max-width: 1180;
 }
+article h2 {
+    font-family: "Abril Fatface", "Georgia", "Times New Roman", cursive;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #557a80;
+    line-height: 1em;
+}
+article h3 {
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    position: relative;
+    padding-bottom: 0.8rem;
+}
+article h3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--color-border);
+}
+article section blockquote {
+    margin: 1.5rem 0;
+    padding: 0.75rem 20px 70px 20px;
+    border: solid 2px var(--color-border);
+    -webkit-box-shadow: 5px 5px 0 var(--color-border);
+            box-shadow: 5px 5px 0 var(--color-border);
+}
+article section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+article section ul li {
+    padding: 5px 12px;
+    margin: 2px;
+    background-color: var(--color-dark);
+    color: var(--color-background);
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+article section ol {
+    list-style: none;
+    counter-reset: steps;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+}
+article section ol li {
+    counter-increment: steps;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    position: relative;
+    border-left: dashed 2px var(--color-border);
+    color: var(--color-border);
+}
+article section ol li em {
+    color: var(--color-dark);
+}
+article section ol li.special {
+    margin-top: 14px;
+}
+article section ol li.special span {
+    margin: 10px 0 10px 10px;
+    padding: 5px 12px;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+article section ol li:before {
+    content: counter(steps);
+    font-weight: bold;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--color-border);
+    position: absolute;
+    left: calc(-1rem - 1px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+article section ol li:last-child {
+    border-left: 0;
+}
+article section a.link-button {
+    display: inline-block;
+    color: var(--color-dark);
+    font-weight: bold;
+    white-space: nowrap;
+    background-color: var(--color-border);
+    border: solid 2px var(--color-border);
+    padding: 8px 20px;
+    text-align: center;
+}
+article section a.link-button:hover,
+article section a.link-button:focus {
+    color: var(--color-border);
+    background-color: var(--color-dark);
+}
