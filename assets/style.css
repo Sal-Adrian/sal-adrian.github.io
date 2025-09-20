@@ -439,3 +439,29 @@ footer.page-footer .container {
     margin-left: auto;
     width: 7%;
 }
+
+@media screen and (max-width: 720px) {
+    main {
+        padding: 3rem 3% 0 3%;
+    }
+    article {
+        padding: 0;
+    }
+    nav {
+        display: none;
+    }
+    footer.page-footer .container {
+        padding-left: 3%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .special {
+        display: block;
+    }
+    .project-image {
+        display: none;
+    }
+    .sm-hide {
+        display: block;
+    }
+}
